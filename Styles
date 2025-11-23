@@ -1,0 +1,16 @@
+<style>
+.buy-button {
+    display:inline-block;
+    background:#00c853;
+    color:#fff;
+    padding:15px 25px;
+    font-size:18px;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:0.2s;
+}
+.buy-button:hover {
+    background:#009e42;
+}
+</style>
