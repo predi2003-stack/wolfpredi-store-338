@@ -1,51 +1,145 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wolfpredi Store 338</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #111; color: #eee; }
-        header, footer { text-align: center; padding: 20px; background: #222; }
-        h1, h2 { margin: 0; }
-        .omega-grid, .product-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-            padding: 20px;
+<title>Wolfpredi Store 338 — System • Księgi • Ostrze • Zegarek</title>
+<meta name="description" content="Oficjalny sklep Wolfpredi Store 338. Księga 22 zł, Księga 69 zł, Ostrze Black Rose, Zegarek Wolfpredi 338. System Black Rose Income oraz płatności QR (Revolut / mBank). Wolfpredi nie śpi.">
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #0e0e0e;
+        color: #e6e6e6;
+        margin: 0;
+        padding: 0;
+    }
+
+    header, footer {
+        text-align: center;
+        padding: 20px;
+    }
+
+    h1, h2 {
+        margin: 0;
+        color: #fff;
+    }
+
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .product-slot, .payment-qr {
+        border: 1px solid #3a3a3a;
+        padding: 15px;
+        text-align: center;
+        background: #1b1b1b;
+        border-radius: 6px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+
+    .price {
+        font-size: 18px;
+        margin: 10px 0;
+        font-weight: bold;
+        color: #d6d6d6;
+    }
+
+    .buy-btn {
+        display: inline-block;
+        padding: 10px 15px;
+        background: #a80000;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 8px;
+    }
+
+    .buy-btn:hover {
+        background: #cc0000;
+    }
+
+    @media (max-width: 700px) {
+        .product-grid {
+            grid-template-columns: 1fr;
         }
-        .product-slot, .payment-qr {
-            border: 1px solid #444;
-            padding: 15px;
-            text-align: center;
-            background: #1b1b1b;
-        }
-    </style>
+    }
+</style>
+
 </head>
-
 <body>
 
 <header>
-    <h1>🐺 Wolfpredi Store 338</h1>
-    <h2>Ω System – Silnik Sprzedaży 25 000 zł / dzień</h2>
+    <h1>Wolfpredi Store 338</h1>
+    <p>System • Manifest • Ostrze • Księgi • Zegarek</p>
 </header>
 
-<section id="omega-system">
-    <h2 style="text-align:center;">🧠 Omega System – 4 Produkty</h2>
 
-    <div class="omega-grid">
-        <div class="product-slot">📘 Księga • 22 zł</div>
-        <div class="product-slot">📗 Księga • 69 zł</div>
-        <div class="product-slot">🗡️ Ostrze Black Rose</div>
-        <div class="product-slot">⌚ Zegarek Wolfpredi 338</div>
-        <div class="payment-qr">💰 Miejsce na QR płatności (Revolut / mBank)</div>
+<!-- GRUPA PRODUKTÓW -->
+<section class="product-grid">
+
+    <!-- KSIĘGA 22 -->
+    <div class="product-slot">
+        <img src="https://via.placeholder.com/400x400/111/fff?text=KSIĘGA+22+zł" alt="Księga 22 zł">
+        <h2>Księga 22 zł</h2>
+        <p class="price">22 zł</p>
+        <p>Duchowe przesłanie i wizualny manifest Wolfpredi.</p>
+        <a class="buy-btn" href="#">Kup teraz</a>
+    </div>
+
+    <!-- KSIĘGA 69 -->
+    <div class="product-slot">
+        <img src="https://via.placeholder.com/400x400/111/fff?text=KSIĘGA+69+zł" alt="Księga 69 zł">
+        <h2>Księga 69 zł</h2>
+        <p class="price">69 zł</p>
+        <p>Napoje Bogów: Zielony Krąg — projekt globalny.</p>
+        <a class="buy-btn" href="#">Kup teraz</a>
+    </div>
+
+    <!-- OSTRZE BLACK ROSE -->
+    <div class="product-slot">
+        <img src="https://via.placeholder.com/400x400/111/fff?text=Black+Rose+Blade" alt="Ostrze Black Rose 338">
+        <h2>Ostrze Black Rose</h2>
+        <p class="price">Cena zmienna</p>
+        <p>Projekt 338 — czerwono-czarno-złote ostrze z Bluetooth.</p>
+        <a class="buy-btn" href="#">Kup teraz</a>
+    </div>
+
+    <!-- ZEGAREK 338 -->
+    <div class="product-slot">
+        <img src="https://via.placeholder.com/400x400/111/fff?text=Wolfpredi+Watch+338" alt="Zegarek Wolfpredi 338">
+        <h2>Zegarek Wolfpredi 338</h2>
+        <p class="price">Cena zmienna</p>
+        <p>Limitowany model symboliczny. Edycja 338.</p>
+        <a class="buy-btn" href="#">Kup teraz</a>
+    </div>
+
+</section>
+
+
+<!-- QR PŁATNOŚCI -->
+<section class="product-grid">
+    <div class="payment-qr">
+        <h2>Płatność QR — Revolut / mBank</h2>
+        <img src="https://via.placeholder.com/400x400/222/fff?text=QR+CODE" alt="QR do płatności">
+        <p>Zeskanuj kod, aby dokonać płatności.</p>
     </div>
 </section>
 
+
 <footer>
-    Wolfpredi 338 Ω — Cyber Edition • 2025  
-    <br>„Wolfpredi nie śpi.” ⟁
+    Wolfpredi 338 • “Wolfpredi nie śpi.” • © 2025
 </footer>
 
 </body>
