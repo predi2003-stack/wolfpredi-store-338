@@ -1,88 +1,96 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WOLFPREDI STORE • 338 HELLFORGE EDITION</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🐺 Wolfpredi Store 338 — ORION x OMEGA</title>
+
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background: #0a0a0a;
-            color: #eaeaea;
+            background: #0a0a0e;
+            font-family: 'Segoe UI', sans-serif;
+            color: #f2f2f2;
         }
 
         header {
-            padding: 40px;
+            padding: 25px;
             text-align: center;
-            background: linear-gradient(90deg, #ff3c00, #ffae00);
-            color: #000;
-            font-size: 32px;
-            font-weight: bold;
+            background: #111;
+            border-bottom: 2px solid #222;
         }
 
-        .section {
-            padding: 40px 20px;
-            max-width: 1200px;
-            margin: auto;
+        h1 {
+            font-size: 36px;
+            letter-spacing: 3px;
+            color: #ff6a00;
+            text-shadow: 0 0 12px #ff6a00;
         }
 
         h2 {
-            font-size: 32px;
-            margin-bottom: 20px;
-            border-left: 6px solid #ff5100;
-            padding-left: 15px;
+            margin-top: 70px;
+            text-align: center;
+            font-size: 28px;
+            letter-spacing: 2px;
+            color: #ffae00;
+            text-shadow: 0 0 8px #ffae00;
+        }
+
+        .section {
+            width: 92%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px 0;
         }
 
         .product-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 20px;
+            grid-gap: 25px;
+            margin-top: 30px;
         }
 
-        .product {
-            background: #151515;
-            padding: 15px;
+        .card {
+            background: #141418;
+            border: 1px solid #242424;
             border-radius: 10px;
-            border: 1px solid #333;
-            transition: 0.3s;
+            padding: 12px;
+            text-align: center;
+            transition: 0.25s;
         }
 
-        .product:hover {
+        .card:hover {
             transform: scale(1.03);
-            border-color: #ff3c00;
+            box-shadow: 0 0 25px #ff6a00;
         }
 
-        .product img {
+        .card img {
             width: 100%;
             border-radius: 8px;
         }
 
-        .download-box {
-            background: #111;
-            border: 1px solid #333;
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 20px;
-        }
-
         .btn {
             display: inline-block;
-            margin-top: 15px;
-            padding: 10px 20px;
-            background: #ff3c00;
-            color: #000;
-            border-radius: 6px;
-            font-weight: bold;
             text-decoration: none;
+            background: #ff6a00;
+            padding: 12px 22px;
+            color: #0a0a0a;
+            border-radius: 6px;
+            margin-top: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ffae00;
         }
 
         footer {
+            margin-top: 60px;
+            padding: 25px;
             text-align: center;
-            padding: 20px;
-            background: #111;
-            margin-top: 40px;
-            border-top: 1px solid #333;
+            color: #555;
         }
     </style>
 </head>
@@ -90,83 +98,86 @@
 <body>
 
 <header>
-    WOLFPREDI STORE • 338 HELLFORGE EDITION
+    <h1>🐺 Wolfpredi Store 338</h1>
 </header>
 
+<!-- HERO -->
+<section class="section" style="text-align: center;">
+    <img src="https://i.imgur.com/TYtNIe1.jpeg" style="width: 90%; border-radius: 14px; box-shadow: 0 0 25px #ff6a00;">
+    <p style="margin-top:20px; font-size:18px; color:#cfcfcf;">
+        ORION × OMEGA — Hybrydowy Zestaw Modeli 3D, Figury Deluxe, Hellforge Edition & Grimoire 33Ω.
+    </p>
+</section>
+
+<!-- MODELE 3D -->
+<h2>🔥 MODELE 3D — ORION • OMEGA • HYBRID</h2>
 <section class="section">
-    <h2>🔥 TOP PRODUKTY – HYBRID / OMEGA / PREDATOR 🔥</h2>
     <div class="product-grid">
 
-        <div class="product">
-            <img src="img/battle1.jpg" alt="Battle Pack">
-            <h3>🔥 Battle Pack 338</h3>
-            <p>Starcie z Predatorem – wersja Deluxe + Resin Print.</p>
+        <div class="card">
+            <img src="https://i.imgur.com/pHpLwKL.jpeg">
+            <h3>OMEGA-338 — Final Model</h3>
+            <a class="btn" href="/model-3d/Omega338.html">Zobacz model</a>
         </div>
 
-        <div class="product">
-            <img src="img/orion_omega.jpg" alt="Omega Orion">
-            <h3>⚡ OMEGA–338 & ORION</h3>
-            <p>Figurki premium w wersji malowanej i do druku.</p>
+        <div class="card">
+            <img src="https://i.imgur.com/8gm35Xt.jpeg">
+            <h3>ORION — Final Model</h3>
+            <a class="btn" href="/model-3d/Orion.html">Zobacz model</a>
         </div>
 
-        <div class="product">
-            <img src="img/hybrid.jpg" alt="Hybrid Edition">
-            <h3>🧊🔥 HYBRID EDITION</h3>
-            <p>Nowa linia z łączoną kolorystyką – EXCLUSIVE.</p>
-        </div>
-
-        <div class="product">
-            <img src="img/deluxe_set.jpg" alt="Deluxe Pack">
-            <h3>👑 Deluxe Resin Set</h3>
-            <p>Wszystkie figurki + malowania + podstawki.</p>
+        <div class="card">
+            <img src="https://i.imgur.com/vQzYk1u.jpeg">
+            <h3>HYBRID MODE — OMEGA × ORION</h3>
+            <a class="btn" href="/model-3d/Hybrid.html">Zobacz model</a>
         </div>
 
     </div>
 </section>
 
+<!-- DELUXE FIGURES -->
+<h2>🔥 DELUXE FIGURES — MALOWANE</h2>
 <section class="section">
-    <h2>📦 POBIERZ PACZKI</h2>
-
-    <div class="download-box">
-        <h3>🔥 HELLFORGE EDITION – FULL ZIP</h3>
-        <p>Zawiera: PRINT / RESIN / 4K / POSTERS / opis PDF.</p>
-        <a href="zip/hellforge.zip" class="btn">POBIERZ</a>
-    </div>
-
-    <div class="download-box">
-        <h3>⚡ STANDARD 338 PACK</h3>
-        <p>Zestaw podstawowy – galerie i modele do druku.</p>
-        <a href="zip/standard338.zip" class="btn">POBIERZ</a>
-    </div>
-
-</section>
-
-<section class="section">
-    <h2>🖼 GALERIA 4K</h2>
-
     <div class="product-grid">
 
-        <div class="product">
-            <img src="img/gallery1.jpg">
+        <div class="card">
+            <img src="https://i.imgur.com/0tCk0dz.jpeg">
+            <h3>Omega Deluxe</h3>
         </div>
 
-        <div class="product">
-            <img src="img/gallery2.jpg">
+        <div class="card">
+            <img src="https://i.imgur.com/a65nn9Y.jpeg">
+            <h3>Orion Deluxe</h3>
         </div>
 
-        <div class="product">
-            <img src="img/gallery3.jpg">
+        <div class="card">
+            <img src="https://i.imgur.com/0AtHk0C.jpeg">
+            <h3>Predator Deluxe</h3>
         </div>
 
-        <div class="product">
-            <img src="img/gallery4.jpg">
+        <div class="card">
+            <img src="https://i.imgur.com/8RDD4nD.jpeg">
+            <h3>Set Deluxe</h3>
         </div>
 
     </div>
+</section>
+
+<!-- HELLFORGE -->
+<h2>🔥 HELLFORGE EDITION — ZIP PACK</h2>
+<section class="section" style="text-align:center;">
+    <img src="https://i.imgur.com/Cs5m0F6.png" style="width: 70%; border-radius:12px;"><br>
+    <a class="btn" href="/downloads/HELLFORGE_EDITION.zip" download>POBIERZ ZIP</a>
+</section>
+
+<!-- GRIMOIRE -->
+<h2>📜 GRIMOIRE 33Ω</h2>
+<section class="section" style="text-align: center;">
+    <a class="btn" href="/grimoire/grimoire-33O.html">OTWÓRZ GRIMOIRE</a>
 </section>
 
 <footer>
-    WOLFPREDI LABS • 338 Ω • Projekt Grove Street  
+    Wolfpredi 338 — Omega nie śpi.
 </footer>
 
 </body>
