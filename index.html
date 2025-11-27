@@ -1,184 +1,266 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🐺 Wolfpredi Store 338 — ORION x OMEGA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🔥 Wolfpredi Store 338 — HELLFORGE MODE</title>
 
-    <style>
-        body {
-            margin: 0;
-            background: #0a0a0e;
-            font-family: 'Segoe UI', sans-serif;
-            color: #f2f2f2;
-        }
+<style>
 
-        header {
-            padding: 25px;
-            text-align: center;
-            background: #111;
-            border-bottom: 2px solid #222;
-        }
+body {
+    margin: 0;
+    background: radial-gradient(circle at center, #1a0900 10%, #0a0500 60%, #000 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #f5e6d5;
+}
 
-        h1 {
-            font-size: 36px;
-            letter-spacing: 3px;
-            color: #ff6a00;
-            text-shadow: 0 0 12px #ff6a00;
-        }
+/* OGNISTY HEADER */
+header {
+    padding: 28px;
+    text-align: center;
+    background: #170400;
+    border-bottom: 2px solid #ff3c00;
+    box-shadow: 0 0 40px #ff3c00;
+}
 
-        h2 {
-            margin-top: 70px;
-            text-align: center;
-            font-size: 28px;
-            letter-spacing: 2px;
-            color: #ffae00;
-            text-shadow: 0 0 8px #ffae00;
-        }
+h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin: 0;
+    color: #ff5a00;
+    text-shadow: 0 0 18px #ff3c00, 0 0 40px #ff0000;
+}
 
-        .section {
-            width: 92%;
-            max-width: 1200px;
-            margin: auto;
-            padding: 40px 0;
-        }
+/* PODTYTUŁY SEKCJI */
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    color: #ffae00;
+    text-shadow: 0 0 18px #ff4d00, 0 0 40px #cc3300;
+}
 
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            grid-gap: 25px;
-            margin-top: 30px;
-        }
+/* LAYOUT */
+.section {
+    width: 92%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+}
 
-        .card {
-            background: #141418;
-            border: 1px solid #242424;
-            border-radius: 10px;
-            padding: 12px;
-            text-align: center;
-            transition: 0.25s;
-        }
+/* HERO BANNER */
+.hero-img {
+    width: 92%;
+    max-width: 1200px;
+    border-radius: 14px;
+    display: block;
+    margin: 22px auto;
+    box-shadow: 0 0 50px #ff3c00;
+    border: 2px solid #ff5a00;
+}
 
-        .card:hover {
-            transform: scale(1.03);
-            box-shadow: 0 0 25px #ff6a00;
-        }
+.hero-desc {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 18px;
+    color: #ffc9a3;
+}
 
-        .card img {
-            width: 100%;
-            border-radius: 8px;
-        }
+/* KARTY PRODUKTÓW */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
 
-        .btn {
-            display: inline-block;
-            text-decoration: none;
-            background: #ff6a00;
-            padding: 12px 22px;
-            color: #0a0a0a;
-            border-radius: 6px;
-            margin-top: 15px;
-            font-weight: bold;
-            text-transform: uppercase;
-            transition: 0.3s;
-        }
+.card {
+    background: #120500;
+    border: 1px solid #802400;
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+    transition: .25s;
+    box-shadow: 0 0 20px rgba(255, 70, 0, 0.15);
+}
 
-        .btn:hover {
-            background: #ffae00;
-        }
+.card:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 45px #ff3c00;
+    border-color: #ff5a00;
+}
 
-        footer {
-            margin-top: 60px;
-            padding: 25px;
-            text-align: center;
-            color: #555;
-        }
-    </style>
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #442000;
+}
+
+/* PRZYCISK */
+.btn {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 24px;
+    background: linear-gradient(90deg, #ff3c00, #ff7a00);
+    color: #0a0a0a;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .25s;
+    border: 1px solid #ff0000;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #ff7a00, #ffd000);
+    box-shadow: 0 0 20px #ffae00;
+}
+
+/* STOPKA */
+footer {
+    margin-top: 70px;
+    padding: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #b37a6a;
+    background: #150400;
+    border-top: 2px solid #802400;
+    box-shadow: 0 0 40px #ff3c00 inset;
+}
+
+</style>
+
 </head>
-
 <body>
 
 <header>
-    <h1>🐺 Wolfpredi Store 338</h1>
+    <h1>🔥 Wolfpredi Store 338 — Hellforge Mode</h1>
 </header>
 
-<!-- HERO -->
-<section class="section" style="text-align: center;">
-    <img src="https://i.imgur.com/TYtNIe1.jpeg" style="width: 90%; border-radius: 14px; box-shadow: 0 0 25px #ff6a00;">
-    <p style="margin-top:20px; font-size:18px; color:#cfcfcf;">
-        ORION × OMEGA — Hybrydowy Zestaw Modeli 3D, Figury Deluxe, Hellforge Edition & Grimoire 33Ω.
+<section class="section">
+    <img class="hero-img" src="assets/hero_hellforge.jpg">
+    <p class="hero-desc">
+        Omega • Orion • Hybrid — Final Models, Deluxe Figures, Hellforge Rituals & Grimoire 33Ω.
     </p>
 </section>
 
-<!-- MODELE 3D -->
-<h2>🔥 MODELE 3D — ORION • OMEGA • HYBRID</h2>
+
+<!-- ========================= -->
+<!--      MODELE 3D 338        -->
+<!-- ========================= -->
+<h2>🔥 MODELE 3D — Omega • Orion • Hybrid</h2>
+
 <section class="section">
     <div class="product-grid">
 
         <div class="card">
-            <img src="https://i.imgur.com/pHpLwKL.jpeg">
-            <h3>OMEGA-338 — Final Model</h3>
-            <a class="btn" href="/model-3d/Omega338.html">Zobacz model</a>
+            <img src="assets/omega_model.jpg">
+            <h3>Omega-338 — Model 3D</h3>
+            <a class="btn" href="model-omega.html">Otwórz model</a>
         </div>
 
         <div class="card">
-            <img src="https://i.imgur.com/8gm35Xt.jpeg">
-            <h3>ORION — Final Model</h3>
-            <a class="btn" href="/model-3d/Orion.html">Zobacz model</a>
+            <img src="assets/orion_model.jpg">
+            <h3>Orion — Model 3D</h3>
+            <a class="btn" href="model-orion.html">Otwórz model</a>
         </div>
 
         <div class="card">
-            <img src="https://i.imgur.com/vQzYk1u.jpeg">
-            <h3>HYBRID MODE — OMEGA × ORION</h3>
-            <a class="btn" href="/model-3d/Hybrid.html">Zobacz model</a>
+            <img src="assets/hybrid_model.jpg">
+            <h3>Hybrid — Omega × Orion</h3>
+            <a class="btn" href="model-hybrid.html">Otwórz model</a>
         </div>
 
     </div>
 </section>
 
-<!-- DELUXE FIGURES -->
-<h2>🔥 DELUXE FIGURES — MALOWANE</h2>
+
+
+<!-- ========================= -->
+<!--     FIGURKI DELUXE        -->
+<!-- ========================= -->
+<h2>🔥 FIGURKI DELUXE — MALOWANE</h2>
+
 <section class="section">
     <div class="product-grid">
 
         <div class="card">
-            <img src="https://i.imgur.com/0tCk0dz.jpeg">
+            <img src="assets/omega_deluxe.jpg">
             <h3>Omega Deluxe</h3>
         </div>
 
         <div class="card">
-            <img src="https://i.imgur.com/a65nn9Y.jpeg">
+            <img src="assets/orion_deluxe.jpg">
             <h3>Orion Deluxe</h3>
         </div>
 
         <div class="card">
-            <img src="https://i.imgur.com/0AtHk0C.jpeg">
+            <img src="assets/predator_deluxe.jpg">
             <h3>Predator Deluxe</h3>
         </div>
 
         <div class="card">
-            <img src="https://i.imgur.com/8RDD4nD.jpeg">
-            <h3>Set Deluxe</h3>
+            <img src="assets/set_deluxe.jpg">
+            <h3>Kompletny Set Deluxe</h3>
         </div>
 
     </div>
 </section>
 
-<!-- HELLFORGE -->
-<h2>🔥 HELLFORGE EDITION — ZIP PACK</h2>
+
+
+<!-- ========================= -->
+<!--     HELLFORGE PACK        -->
+<!-- ========================= -->
+<h2>🔥 HELLFORGE EDITION — PACK</h2>
+
 <section class="section" style="text-align:center;">
-    <img src="https://i.imgur.com/Cs5m0F6.png" style="width: 70%; border-radius:12px;"><br>
-    <a class="btn" href="/downloads/HELLFORGE_EDITION.zip" download>POBIERZ ZIP</a>
+    <img src="assets/hellforge_cover.png"
+         style="width: 75%; border-radius: 14px; box-shadow: 0 0 40px #ff3c00;">
 </section>
 
-<!-- GRIMOIRE -->
-<h2>📜 GRIMOIRE 33Ω</h2>
-<section class="section" style="text-align: center;">
-    <a class="btn" href="/grimoire/grimoire-33O.html">OTWÓRZ GRIMOIRE</a>
+
+
+<!-- ========================= -->
+<!--       GRIMOIRE 33Ω        -->
+<!-- ========================= -->
+<h2>📜 GRIMOIRE 33Ω — KSIĘGA</h2>
+
+<section class="section" style="text-align:center;">
+    <a class="btn" href="grimoire-33O.html">OTWÓRZ GRIMOIRE</a>
 </section>
+
+
 
 <footer>
-    Wolfpredi 338 — Omega nie śpi.
+    Wolfpredi 338 — Hellforge aktywne.  
+    <br>© 2025 Wolfpredi Systems • Omega • Orion • Hybrid • Fire Core
 </footer>
+
+
+<!-- OGNISTE ANIMACJE -->
+<script>
+    // Pulsowanie nagłówka
+    const h = document.querySelector("header h1");
+    setInterval(() => {
+        h.style.textShadow = "0 0 30px #ff3c00, 0 0 60px #ff2200";
+        setTimeout(() => {
+            h.style.textShadow = "0 0 18px #ff3c00";
+        }, 350);
+    }, 1800);
+
+    // Migotanie tytułów
+    document.querySelectorAll("h2").forEach(el => {
+        setInterval(() => {
+            el.style.textShadow = "0 0 28px #ff5a00, 0 0 55px #ff2200";
+            setTimeout(() => {
+                el.style.textShadow = "0 0 18px #ff4d00";
+            }, 320);
+        }, 2300);
+    });
+</script>
 
 </body>
 </html>
